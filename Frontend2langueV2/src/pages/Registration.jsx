@@ -1,53 +1,76 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import { FaUsers, FaGraduationCap, FaUserTie } from 'react-icons/fa'
-import { useLanguage } from '../contexts/LanguageContext'
-import './Pages.css'
+import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { FaUsers, FaGraduationCap, FaUserTie } from 'react-icons/fa';
+import { useLanguage } from '../contexts/LanguageContext';
+import mainApi from '../services/mainApi'; // <-- Double-check this path is correct!
+import './Pages.css';
 
 const Registration = () => {
-  const { t, currentLanguage } = useLanguage()
-  const navigate = useNavigate()
+  const { t, currentLanguage } = useLanguage();
+  const navigate = useNavigate();
+  
+  // State to hold the configuration from the backend
+  const [config, setConfig] = useState(null);
+  const [error, setError] = useState('');
 
-  // Check if registration is open (January 15, 2025) and closed (March 10, 2025)
-  const registrationOpenDate = new Date('2025-01-15')
-  const registrationCloseDate = new Date('2026-03-10')
+  // Fetch the configuration data when the component loads
+  useEffect(() => {
+    const loadConfig = async () => {
+      try {
+        const data = await mainApi.getSiteConfig();
+        setConfig(data);
+      } catch (err) {
+        console.error("Failed to fetch site configuration:", err);
+        setError('Could not load registration information. Please try again later.');
+      }
+    };
+
+    loadConfig();
+  }, []); // The empty array ensures this runs only once
+
+  // Helper variables from the fetched config data.
+  // We use `?.` (optional chaining) to prevent errors before the data has loaded.
+  const registrationOpenDate = config ? new Date(config.registrationOpenDate) : null;
+  const registrationCloseDate = config ? new Date(config.registrationCloseDate) : null;
 
   const isRegistrationOpen = () => {
-    const currentDate = new Date()
-    return currentDate >= registrationOpenDate && currentDate <= registrationCloseDate
-  }
+    if (!registrationOpenDate || !registrationCloseDate) return false;
+    const currentDate = new Date();
+    return currentDate >= registrationOpenDate && currentDate <= registrationCloseDate;
+  };
 
   const isRegistrationClosed = () => {
-    const currentDate = new Date()
-    return currentDate > registrationCloseDate
-  }
+    if (!registrationCloseDate) return false;
+    const currentDate = new Date();
+    return currentDate > registrationCloseDate;
+  };
 
-  // Format the registration open date for display
-  const formatRegistrationDate = () => {
-    const locale = currentLanguage === 'fr' ? 'fr-FR' : 'en-US'
-    return registrationOpenDate.toLocaleDateString(locale, {
+  const formatRegistrationDate = (date) => {
+    if (!date) return '';
+    const locale = currentLanguage === 'fr' ? 'fr-FR' : 'en-US';
+    return date.toLocaleDateString(locale, {
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
-    })
-  }
-
-  // Format the registration close date
-  const formatRegistrationCloseDate = () => {
-    const locale = currentLanguage === 'fr' ? 'fr-FR' : 'en-US'
-    return registrationCloseDate.toLocaleDateString(locale, {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric'
-    })
-  }
-
+      day: 'numeric',
+    });
+  };
+  
   const handleRegisterNow = () => {
     if (isRegistrationOpen()) {
-      navigate('/registration-form')
+      navigate('/registration-form');
     }
+  };
+  
+  // Add loading and error states for a better user experience
+  if (error) {
+    return <div className="page-container"><div className="container"><p className="error-message">{error}</p></div></div>;
   }
-// Registration fee data
+  
+  if (!config) {
+    return <div className="page-container"><div className="container"><p>{t('loading') || 'Loading...'}</p></div></div>;
+  }
+  
+  // Registration fee data
   const registrationWithAccommodation = [
     {
       category: "Academic",
@@ -67,7 +90,7 @@ const Registration = () => {
       international: "500 €",
       icon: <FaUserTie />
     }
-  ]
+  ];
 
   const additionalFees = [
     {
@@ -95,7 +118,7 @@ const Registration = () => {
       tunisia: "30% discount",
       international: "30% discount"
     }
-  ]
+  ];
 
   const bankDetails = {
     bank: "Union Internationale des Banques",
@@ -107,7 +130,7 @@ const Registration = () => {
     swift: "UIBKTNTT",
     tin: "1343117/A",
     email: "contact@site-conf.com"
-  }
+  };
 
   return (
     <div className="page-container">
@@ -260,14 +283,14 @@ const Registration = () => {
             {isRegistrationClosed() ? (
               <div className="access-card closed">
                 <h3>{t('registration.access.registrationClosed')}</h3>
-                <p>{t('registration.access.registrationClosedOn', { date: formatRegistrationCloseDate() })}</p>
+                <p>{t('registration.access.registrationClosedOn', { date: formatRegistrationDate(registrationCloseDate) })}</p>
                 <p>{t('registration.access.registrationNoLongerAvailable')}</p>
               </div>
             ) : isRegistrationOpen() ? (
               <div className="access-card open">
                 <h3>{t('registration.access.registrationOpen')}</h3>
                 <p>{t('registration.access.dontMissOut')}</p>
-                <p className="deadline">{t('registration.access.registrationCloses', { date: formatRegistrationCloseDate() })}</p>
+                <p className="deadline">{t('registration.access.registrationCloses', { date: formatRegistrationDate(registrationCloseDate) })}</p>
                 <button
                   className="access-btn primary"
                   onClick={handleRegisterNow}
@@ -278,7 +301,7 @@ const Registration = () => {
             ) : (
               <div className="access-card upcoming">
                 <h3>{t('registration.access.registrationOpeningSoon')}</h3>
-                <p>{t('registration.access.registrationWillOpen', { date: formatRegistrationDate() })}</p>
+                <p>{t('registration.access.registrationWillOpen', { date: formatRegistrationDate(registrationOpenDate) })}</p>
                 <p>{t('registration.access.getReady')}</p>
                 <button
                   className="access-btn disabled"
@@ -299,7 +322,7 @@ const Registration = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Registration
+export default Registration;
