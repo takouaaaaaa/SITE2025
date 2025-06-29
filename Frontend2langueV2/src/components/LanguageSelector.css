@@ -1,0 +1,85 @@
+/* Language Toggle Button Styles */
+.language-toggle-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 2px solid #4299e1;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(66, 153, 225, 0.2);
+  color: #1a202c;
+  font-size: 0.875rem;
+  font-weight: 700;
+  min-width: 50px;
+  height: 36px;
+}
+
+.language-toggle-button:hover {
+  background: #4299e1;
+  color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(66, 153, 225, 0.4);
+}
+
+.language-toggle-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 6px rgba(66, 153, 225, 0.3);
+}
+
+.language-toggle-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.language-text {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: inherit;
+}
+
+/* Loading Spinner */
+
+/* Loading Spinner */
+.loading-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #e2e8f0;
+  border-top: 2px solid #4299e1;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Subtle pulse animation for better visibility */
+@keyframes subtlePulse {
+  0%, 100% {
+    box-shadow: 0 2px 8px rgba(66, 153, 225, 0.2);
+  }
+  50% {
+    box-shadow: 0 4px 12px rgba(66, 153, 225, 0.4);
+  }
+}
+
+.language-toggle-button {
+  animation: subtlePulse 4s ease-in-out infinite;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .language-toggle-button {
+    padding: 0.4rem 0.6rem;
+    min-width: 45px;
+    height: 32px;
+    font-size: 0.8rem;
+  }
+}
+
+

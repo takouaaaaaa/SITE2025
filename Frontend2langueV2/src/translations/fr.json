@@ -1,0 +1,1048 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Accueil",
+      "venue": "Lieu",
+      "committees": "Comités",
+      "honoraryCommittee": "Comité d'honneur",
+      "scientificCommittee": "Comité scientifique",
+      "organizingCommittee": "Comité d'organisation",
+      "program": "Programme",
+      "authors": "Auteurs",
+      "callForPapers": "Appel à communications",
+      "callForSpecialSessions": "Appel à sessions spéciales",
+      "submissionGuidelines": "Directives de soumission",
+      "registration": "Inscription",
+      "previousEditions": "Éditions précédentes",
+      "site2023": "SITE 2023",
+      "site2024": "SITE 2024",
+      "contactUs": "Nous contacter"
+    }
+  },
+  "hero": {
+    "slides": {
+      "slide1": {
+        "title": "Conférence Internationale sur l'Industrie Intelligente, la Technologie et l'Environnement",
+        "subtitle": "SITE 2025",
+        "description": "Façonner l'avenir de la fabrication intelligente, de l'innovation IoT et des solutions technologiques durables",
+        "highlight": "15-17 Mars 2025 • Tunis, Tunisie",
+        "buttons": {
+          "submitPaper": "Soumettre un article",
+          "learnMore": "En savoir plus"
+        }
+      },
+      "slide2": {
+        "title": "Recherche et Innovation de Pointe",
+        "subtitle": "IA et Industrie 4.0",
+        "description": "Explorez les technologies révolutionnaires en Intelligence Artificielle, Apprentissage Automatique et Fabrication Intelligente",
+        "highlight": "500+ Chercheurs • 50+ Pays",
+        "buttons": {
+          "viewProgram": "Voir le programme",
+          "registerNow": "S'inscrire maintenant"
+        }
+      },
+      "slide3": {
+        "title": "Solutions Technologiques Durables",
+        "subtitle": "Innovation Verte",
+        "description": "Découvrez les technologies respectueuses de l'environnement et les pratiques durables pour un avenir meilleur",
+        "highlight": "Événement Neutre en Carbone • Focus Tech Verte",
+        "buttons": {
+          "callForPapers": "Appel à communications",
+          "sponsors": "Sponsors"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "À propos de la conférence",
+    "description": "La 3ème édition de la conférence internationale sur l'Industrie Intelligente, la Technologie et l'Environnement \"SITE'2025\" vise à rassembler des universitaires, chercheurs, professionnels et experts de divers domaines pour partager leurs dernières découvertes, innovations et meilleures pratiques. Elle comprend des conférences plénières, des sessions orales et des présentations d'affiches. SITE'2025 facilite la collaboration interdisciplinaire et promeut le développement durable en explorant les avancées de pointe dans divers domaines. Le comité scientifique international sélectionne les meilleurs articles pour publication dans des revues spécialisées, en tenant compte de leur alignement avec la portée de la conférence. Ces articles choisis sont recommandés pour publication afin de garantir leur qualité et leur importance au sein de la communauté de recherche.",
+    "themes": {
+      "title": "Sujets"
+    }
+  },
+  "partners": {
+    "title": "Partenaires & Sponsors"
+  },
+  "footer": {
+    "description": "La troisième édition de la conférence internationale sur l'Industrie Intelligente, la Technologie et l'Environnement \"SITE'2025\" vise à rassembler des universitaires, chercheurs, professionnels et experts de divers domaines pour partager leurs dernières découvertes, innovations et meilleures pratiques. Elle comprend des conférences plénières, des sessions orales et des présentations d'affiches. SITE'2025 facilite la collaboration interdisciplinaire et promeut le développement durable en explorant les avancées de pointe dans divers domaines.",
+    "quickLinks": "Liens rapides",
+    "contactUs": "Nous contacter",
+    "address": "Adresse : ADT Bizerte, Institut Supérieur des Etudes Technologiques de Bizerte",
+    "copyright": "© 2025 {{siteName}} | Tous droits réservés."
+  },
+  "program": {
+    "title": "Programme de la Conférence SITE 2025",
+    "subtitle": "Découvrez notre programmation passionnante d'intervenants, de sessions et de présentations de recherche de pointe",
+    "stats": {
+      "speakers": "Intervenants Experts",
+      "days": "Jours de Conférence",
+      "sessions": "Sessions"
+    },
+    "speakers": {
+      "title": "Nos Intervenants Distingués",
+      "subtitle": "Rencontrez les experts de l'industrie qui partageront leurs perspectives",
+      "list": [
+        {
+          "name": "Prof. Ahmed BENALI",
+          "title": "Directeur de Recherche",
+          "affiliation": "Institut National de Technologie",
+          "topic": "Intelligence Artificielle et Industrie 4.0"
+        },
+        {
+          "name": "Dr. Sarah MARTIN",
+          "title": "Responsable Innovation",
+          "affiliation": "Centre Européen de Technologie",
+          "topic": "Technologies Durables"
+        },
+        {
+          "name": "Prof. Mohamed HASSAN",
+          "title": "Chef de Département",
+          "affiliation": "Université de Technologie",
+          "topic": "Systèmes Intelligents"
+        },
+        {
+          "name": "Dr. Elena RODRIGUEZ",
+          "title": "Directrice R&D",
+          "affiliation": "Institut de Recherche Avancée",
+          "topic": "Innovation Technologique"
+        }
+      ]
+    },
+    "schedule": {
+      "title": "Programme Détaillé",
+      "subtitle": "Planifiez votre expérience de conférence jour par jour",
+      "days": {
+        "march15": "15 Mars 2025",
+        "march16": "16 Mars 2025",
+        "march17": "17 Mars 2025",
+        "specialSessions": "Sessions Spéciales"
+      },
+      "events": {
+        "registration": "Inscription et Café de Bienvenue",
+        "opening": "Cérémonie d'Ouverture",
+        "keynote1": "Conférence Plénière : Avenir de l'Industrie Intelligente",
+        "coffeeBreak": "Pause Café",
+        "session1": "Session Technique 1 : IoT et Systèmes Intelligents",
+        "lunch": "Pause Déjeuner",
+        "session2": "Session Technique 2 : IA et Apprentissage Automatique",
+        "panel": "Table Ronde : Tendances de l'Industrie 4.0",
+        "keynote2": "Conférence Plénière : Solutions Technologiques Durables",
+        "session3": "Session Technique 3 : Technologie Environnementale",
+        "session4": "Session Technique 4 : Fabrication Intelligente",
+        "workshop": "Atelier : Systèmes Intelligents Pratiques",
+        "poster": "Session Poster et Réseautage",
+        "keynote3": "Conférence Plénière : Transformation Numérique dans l'Industrie",
+        "session5": "Session Technique 5 : Cybersécurité et Analyse de Données",
+        "session6": "Session Technique 6 : Technologies Émergentes",
+        "closing": "Cérémonie de Clôture et Remise des Prix",
+        "toBeAnnounced": "à annoncer prochainement"
+      },
+      "times": {
+        "morning": "Matin",
+        "afternoon": "Après-midi",
+        "evening": "Soirée"
+      }
+    }
+  },
+  "registration": {
+    "title": "Inscription",
+    "subtitle": "SITE 2025 - Industrie Intelligente, Technologie et Environnement",
+    "description": "Inscrivez-vous dès maintenant pour participer à la conférence SITE 2025",
+    "requirements": {
+      "title": "Exigences d'inscription",
+      "description": "Pour l'inclusion d'un article accepté dans la conférence, au moins un auteur de l'article doit s'inscrire au congrès et payer les frais avant la date limite.",
+      "covers": "Les frais d'inscription couvrent :",
+      "materials": "Tous les matériaux de conférence",
+      "accommodation": "Hébergement à l'hôtel en pension complète dans une chambre double (partagée avec un autre participant) pour deux nuits",
+      "options": "Vous pouvez vous inscrire pour assister à la conférence soit :",
+      "present": "Pour présenter des articles",
+      "audience": "Ou comme auditeur",
+      "withWithout": "L'inscription peut être avec ou sans hébergement."
+    },
+    "schedule": {
+      "title": "Calendrier d'hébergement",
+      "arrival": "Arrivée (enregistrement) : 15 mars après 12h00",
+      "departure": "Départ (libération) : 17 mars avant 12h00",
+      "duration": "3 jours de conférence",
+      "location": "Tunis, Tunisie"
+    },
+    "fees": {
+      "title": "Frais d'inscription",
+      "subtitle": "Tarifs pour SITE 2025",
+      "description": "Choisissez votre type d'inscription selon votre profil",
+      "withAccommodation": "Avec hébergement",
+      "withoutAccommodation": "Sans hébergement",
+      "category": "Catégorie",
+      "fromTunisia": "Participants de Tunisie",
+      "fromOtherCountries": "Participants internationaux",
+      "academic": "Académique / Universitaire",
+      "student": "Étudiant / Doctorant",
+      "professional": "Professionnel / Industriel",
+      "prices": {
+        "tunisia": {
+          "academicWithAccommodation": "700 TND",
+          "studentWithAccommodation": "650 TND",
+          "professionalWithAccommodation": "750 TND",
+          "academicWithoutAccommodation": "450 TND",
+          "studentWithoutAccommodation": "400 TND",
+          "professionalWithoutAccommodation": "500 TND"
+        },
+        "international": {
+          "academicWithAccommodation": "450 €",
+          "studentWithAccommodation": "400 €",
+          "professionalWithAccommodation": "500 €",
+          "academicWithoutAccommodation": "300 €",
+          "studentWithoutAccommodation": "250 €",
+          "professionalWithoutAccommodation": "350 €"
+        }
+      },
+      "withoutAccommodationTitle": "Sans hébergement",
+      "withoutAccommodationPrice": "450 TND",
+      "includes": {
+        "title": "Les frais d'inscription incluent :",
+        "materials": "Tous les matériaux de conférence",
+        "meals": "Déjeuners et pauses café pendant la conférence",
+        "accommodation": "Hébergement en pension complète (si sélectionné)",
+        "certificate": "Certificat de participation officiel",
+        "proceedings": "Actes de la conférence (version électronique)",
+        "networking": "Accès aux événements de réseautage",
+        "wifi": "Accès WiFi gratuit",
+        "transport": "Transferts locaux inclus"
+      },
+      "accommodationDetails": {
+        "title": "Détails de l'hébergement",
+        "roomType": "Chambre double partagée",
+        "meals": "Pension complète (petit-déjeuner, déjeuner, dîner)",
+        "duration": "2 nuits (15-17 mars 2025)",
+        "hotel": "Hôtel 4 étoiles à Tunis",
+        "amenities": "WiFi, climatisation, salle de bain privée"
+      },
+      "withoutAccommodationDescription": "Les frais d'inscription sans hébergement couvrent tous les matériaux de conférence, déjeuners et pauses café pendant les 3 jours de la conférence",
+      "venueInfo": "Pour plus de détails sur l'hébergement et l'hôtel de conférence, consultez la page Lieu.",
+      "earlyBird": {
+        "title": "Tarif préférentiel",
+        "description": "Réduction de 10% pour les inscriptions avant le 1er février 2025",
+        "deadline": "Date limite : 1er février 2025"
+      }
+    },
+    "payment": {
+      "title": "Méthodes de paiement",
+      "bankTransfer": "Virement bancaire",
+      "bankTransferRules": [
+        "Payez le montant total sans aucune déduction et tous les frais bancaires payés par le bénéficiaire",
+        "Le paiement ne peut pas être remboursé",
+        "Envoyez une copie numérisée de l'ordre de virement bancaire à : contact@site-conf.com"
+      ],
+      "bonCommande": "Bon de commande",
+      "bonCommandeNote": "(Uniquement pour les universités tunisiennes)",
+      "instructions": "Instructions de paiement",
+      "deadline": "Date limite de paiement : 10 mars 2025"
+    },
+    "bankDetails": {
+      "title": "Détails du compte bancaire",
+      "bankInfo": "Informations bancaires",
+      "bank": "Union Internationale des Banques",
+      "address": "Menzel Jemil",
+      "purpose": "Inscription à SITE 2025",
+      "accountName": "Association de développement technologique de Bizerte",
+      "paymentTo": "Paiement à :",
+      "accountNumber": "Numéro de compte : 12202000009030939395",
+      "iban": "IBAN : TN591220200009030939395",
+      "swift": "Swift : UIBKTNTT",
+      "taxId": "Numéro d'identification fiscale (TIN) : 1343117/A",
+      "rne": "Registre National des Entreprises (RNE) :",
+      "downloadBankId": "[Télécharger l'identité bancaire]",
+      "downloadTaxId": "[Télécharger l'ID fiscal]",
+      "downloadRne": "[Télécharger RNE]"
+    },
+    "additionalFees": {
+      "title": "Frais supplémentaires",
+      "feeType": "Type de frais",
+      "fromTunisia": "De Tunisie",
+      "fromOtherCountries": "D'autres pays",
+      "adultAccompanying": "Personne accompagnante adulte",
+      "adultAccompanyingTunisia": "120 TND / nuit",
+      "adultAccompanyingInternational": "80 € / nuit",
+      "singleSupplement": "Supplément chambre simple",
+      "singleSupplementTunisia": "25 TND / nuit",
+      "singleSupplementInternational": "25 € / nuit",
+      "childrenUnder2": "Enfants < 2 ans",
+      "childUnder12With2Adults": "Enfant < 12 ans avec 2 adultes",
+      "childUnder12Separate": "Enfant < 12 ans en chambre séparée ou avec un seul adulte",
+      "free": "Gratuit",
+      "discount50": "50% de réduction",
+      "discount30": "30% de réduction",
+      "additionalServices": "Services supplémentaires",
+      "airportTransfer": "Transfert aéroport (Aéroport Tunis Carthage ↔ hôtel) : 50 €",
+      "socialEvent": "Frais supplémentaires pour l'événement social : 100 € / 50 TND"
+    },
+    "access": {
+      "registrationClosed": "Inscription fermée",
+      "registrationClosedOn": "Inscription fermée le {{date}}",
+      "registrationNoLongerAvailable": "L'inscription n'est plus disponible pour cette conférence.",
+      "registrationOpen": "L'inscription est ouverte !",
+      "dontMissOut": "Ne manquez pas - inscrivez-vous maintenant pour SITE 2025",
+      "registrationCloses": "L'inscription ferme le {{date}}",
+      "startRegistration": "Commencer l'inscription",
+      "registrationOpeningSoon": "Ouverture d'inscription bientôt",
+      "registrationWillOpen": "L'inscription ouvrira le {{date}}",
+      "getReady": "Préparez-vous à sécuriser votre place à SITE 2025",
+      "comingSoon": "Bientôt disponible"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@site-conf.com",
+      "moreInfo": "Pour plus d'informations, veuillez contacter les organisateurs."
+    },
+    "form": {
+      "title": "Formulaire d'inscription",
+      "subtitle": "Inscrivez-vous à SITE 2025",
+      "description": "Veuillez remplir tous les champs obligatoires",
+      "steps": {
+        "step1": "Informations personnelles",
+        "step2": "Détails de l'inscription",
+        "step3": "Paiement et confirmation"
+      },
+      "personalInfo": {
+        "title": "Informations personnelles",
+        "firstName": "Prénom",
+        "lastName": "Nom de famille",
+        "email": "Adresse email",
+        "confirmEmail": "Confirmer l'email",
+        "phone": "Numéro de téléphone",
+        "mobile": "Téléphone portable",
+        "affiliation": "Affiliation / Organisation",
+        "position": "Poste / Fonction",
+        "department": "Département / Service",
+        "country": "Pays de résidence",
+        "city": "Ville",
+        "address": "Adresse complète",
+        "postalCode": "Code postal"
+      },
+      "registrationDetails": {
+        "title": "Détails de l'inscription",
+        "registrationType": "Type d'inscription",
+        "participantCategory": "Catégorie de participant",
+        "accommodationType": "Type d'hébergement",
+        "accommodationPreference": "Préférence d'hébergement",
+        "roomSharing": "Partage de chambre",
+        "arrivalDate": "Date d'arrivée",
+        "departureDate": "Date de départ",
+        "specialNeeds": "Besoins spéciaux",
+        "accessibility": "Accessibilité requise"
+      },
+      "dietaryRequirements": {
+        "title": "Exigences alimentaires",
+        "vegetarian": "Végétarien",
+        "vegan": "Végétalien",
+        "halal": "Halal",
+        "kosher": "Casher",
+        "glutenFree": "Sans gluten",
+        "allergies": "Allergies alimentaires",
+        "other": "Autres exigences",
+        "none": "Aucune exigence particulière"
+      },
+      "paperSubmission": {
+        "title": "Soumission d'article",
+        "hasSubmission": "J'ai soumis un article",
+        "paperTitle": "Titre de l'article",
+        "authors": "Auteurs",
+        "presentingAuthor": "Auteur présentateur",
+        "sessionPreference": "Préférence de session"
+      },
+      "payment": {
+        "title": "Informations de paiement",
+        "method": "Méthode de paiement",
+        "bankTransfer": "Virement bancaire",
+        "creditCard": "Carte de crédit",
+        "invoice": "Facture (organisations)",
+        "amount": "Montant total",
+        "currency": "Devise",
+        "reference": "Référence de paiement"
+      },
+      "validation": {
+        "required": "Ce champ est obligatoire",
+        "email": "Adresse email invalide",
+        "phone": "Numéro de téléphone invalide",
+        "minLength": "Minimum {{min}} caractères",
+        "maxLength": "Maximum {{max}} caractères",
+        "match": "Les champs ne correspondent pas"
+      },
+      "buttons": {
+        "previous": "Précédent",
+        "next": "Suivant",
+        "submit": "Soumettre l'inscription",
+        "save": "Sauvegarder",
+        "cancel": "Annuler",
+        "reset": "Réinitialiser"
+      },
+      "messages": {
+        "success": "Inscription soumise avec succès !",
+        "error": "Erreur lors de la soumission",
+        "processing": "Traitement en cours...",
+        "confirmation": "Email de confirmation envoyé"
+      }
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "submit": "Soumettre",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "sort": "Trier",
+    "viewMore": "Voir plus",
+    "viewLess": "Voir moins"
+  },
+  "pages": {
+    "home": {
+      "title": "Accueil",
+      "aboutConference": "À propos de la conférence",
+      "aboutDescription": "La 3ème édition de la conférence internationale sur l'Industrie Intelligente, la Technologie et l'Environnement \"SITE'2025\" vise à rassembler des universitaires, chercheurs, professionnels et experts de divers domaines pour partager leurs dernières découvertes, innovations et meilleures pratiques.",
+      "topics": "Sujets"
+    },
+    "venue": {
+      "title": "Lieu",
+      "subtitle": "Informations sur le lieu de la conférence",
+      "location": "Emplacement",
+      "address": "Adresse",
+      "accommodation": "Hébergement",
+      "transport": "Transport"
+    },
+    "callForPapers": {
+      "title": "Appel à communications",
+      "subtitle": "Soumettez vos recherches",
+      "description": "Nous invitons les chercheurs à soumettre leurs travaux originaux",
+      "deadline": "Date limite",
+      "guidelines": "Directives"
+    },
+    "callForSpecialSessions": {
+      "title": "Appel à sessions spéciales",
+      "subtitle": "Proposez une session spéciale",
+      "description": "Organisez une session thématique"
+    },
+    "submissionGuidelines": {
+      "title": "Directives de soumission",
+      "subtitle": "Comment soumettre votre article",
+      "format": "Format",
+      "requirements": "Exigences",
+      "process": "Processus"
+    },
+    "registration": {
+      "title": "Inscription",
+      "subtitle": "Inscrivez-vous à la conférence",
+      "description": "Inscrivez-vous dès maintenant pour participer à SITE 2025",
+      "fees": "Frais",
+      "payment": "Paiement",
+      "deadline": "Date limite"
+    },
+    "registrationForm": {
+      "title": "Formulaire d'inscription à la conférence",
+      "subtitle": "SITE 2025 - Industrie Intelligente, Technologie et Environnement",
+      "personalInfo": {
+        "title": "Informations personnelles",
+        "fullName": "Nom complet",
+        "fullNamePlaceholder": "Entrez votre nom complet",
+        "institution": "Institution",
+        "institutionPlaceholder": "Entrez votre institution/organisation",
+        "position": "Poste",
+        "positionPlaceholder": "Entrez votre poste ou titre",
+        "email": "Adresse e-mail",
+        "emailPlaceholder": "Entrez votre adresse e-mail",
+        "phone": "Numéro de téléphone",
+        "phonePlaceholder": "Entrez votre numéro de téléphone"
+      },
+      "conferenceOptions": {
+        "title": "Options de conférence et détails d'inscription",
+        "participantCategory": "Catégorie de participant",
+        "participantCategoryPlaceholder": "Sélectionnez votre catégorie",
+        "academic": "Académique",
+        "student": "Étudiant",
+        "professional": "Professionnel",
+        "location": "Emplacement",
+        "locationPlaceholder": "Sélectionnez votre emplacement",
+        "fromTunisia": "De Tunisie",
+        "fromOtherCountries": "D'autres pays",
+        "accommodation": "Je veux un hébergement (pension complète à l'hôtel pour 2 nuits)",
+        "singleRoom": "Je veux une chambre individuelle (frais supplémentaires s'appliquent)",
+        "withArticle": "Je présenterai un article/papier à la conférence",
+        "airportTransfer": "J'ai besoin d'un transfert aéroport (Aéroport Tunis Carthage ↔ hôtel) - 50 €",
+        "socialEvent": "Je veux assister à l'événement social (frais supplémentaires)",
+        "withAccompanying": "Je serai accompagné(e) par d'autres personnes"
+      },
+      "accompanyingPersons": {
+        "title": "Personnes accompagnantes",
+        "pricingInfo": "Informations tarifaires :",
+        "childrenUnder2": "Enfants de moins de 2 ans : Gratuit",
+        "childrenUnder12With2Adults": "Enfants de moins de 12 ans avec 2 adultes : 50% de réduction",
+        "childrenUnder12Separate": "Enfants de moins de 12 ans en chambre séparée ou avec un seul adulte : 30% de réduction",
+        "adults": "Adultes (18+ ans) : Prix complet",
+        "namePlaceholder": "Entrez le nom de la personne accompagnante",
+        "agePlaceholder": "Âge",
+        "add": "Ajouter",
+        "yearsOld": "ans"
+      },
+      "feeCalculation": {
+        "title": "Calcul des frais d'inscription",
+        "baseRegistrationFee": "Frais d'inscription de base",
+        "singleRoomSupplement": "Supplément chambre individuelle (2 nuits)",
+        "accompanyingPersons": "Personnes accompagnantes (2 nuits)",
+        "airportTransfer": "Transfert aéroport",
+        "socialEvent": "Événement social",
+        "totalAmount": "Montant total",
+        "free": "Gratuit",
+        "childDiscount50": "(50% réduction enfant)",
+        "childDiscount30": "(30% réduction enfant)"
+      },
+      "payment": {
+        "title": "Informations de paiement",
+        "paymentMethod": "Méthode de paiement",
+        "paymentMethodPlaceholder": "Sélectionnez la méthode de paiement",
+        "bankTransfer": "Paiement par virement bancaire",
+        "administrativeOrder": "Paiement par mandat administratif (bons de commande)",
+        "check": "Paiement par chèque",
+        "paymentSummary": "Résumé du paiement",
+        "totalAmountToPay": "Montant total à payer",
+        "paymentNote": "Veuillez vous assurer que votre paiement correspond exactement à ce montant. Le montant du paiement est automatiquement calculé en fonction de vos sélections d'inscription.",
+        "paymentProof": "Justificatif de paiement",
+        "chooseFile": "Choisir un fichier image",
+        "fileHelpText": "Téléchargez une image de votre reçu de paiement ou justificatif"
+      },
+      "actions": {
+        "submit": "Soumettre l'inscription",
+        "submitting": "Soumission en cours..."
+      }
+    },
+    "committees": {
+      "title": "Comités",
+      "subtitle": "Découvrez nos comités",
+      "description": "SITE 2025 est organisé par des comités dédiés d'experts internationaux, d'universitaires et de professionnels qui assurent le succès de la conférence et maintiennent ses normes élevées de qualité et d'excellence.",
+      "membersLabel": "Membres",
+      "roleLabel": "Rôle",
+      "viewCommittee": "Voir le Comité",
+      "honorary": {
+        "members": "6 membres",
+        "role": "Orientation stratégique et normes académiques"
+      },
+      "scientific": {
+        "members": "70+ membres",
+        "role": "Révision des articles et supervision scientifique"
+      },
+      "organizing": {
+        "members": "30+ membres",
+        "role": "Organisation de la conférence et logistique"
+      },
+      "collaboration": {
+        "title": "Collaboration des Comités",
+        "description": "Tous les comités travaillent ensemble pour garantir que SITE 2025 offre une expérience de conférence de classe mondiale. Le Comité d'honneur fournit une direction stratégique, le Comité scientifique assure l'excellence académique, et le Comité d'organisation gère tous les aspects opérationnels."
+      },
+      "join": {
+        "title": "Rejoignez Nos Comités",
+        "description": "Nous accueillons des professionnels et des universitaires qualifiés pour rejoindre nos comités pour les futures éditions de SITE. Si vous êtes intéressé à contribuer au succès de la conférence, veuillez nous contacter.",
+        "contactUs": "Nous Contacter"
+      }
+    },
+    "honoraryCommittee": {
+      "title": "Comité d'honneur",
+      "subtitle": "Membres du comité d'honneur",
+      "description": "Le Comité d'honneur de SITE 2025 est composé de personnalités éminentes du monde académique et industriel qui apportent leur expertise et leur vision pour guider l'orientation stratégique de la conférence."
+    },
+    "scientificCommittee": {
+      "title": "Comité scientifique",
+      "subtitle": "Experts internationaux",
+      "description": "Le Comité scientifique de SITE 2025 est composé d'experts internationaux qui évaluent les soumissions et assurent la qualité scientifique de la conférence. Leurs expertises couvrent tous les domaines thématiques de la conférence.",
+      "membersTitle": "Membres du Comité Scientifique",
+      "chairsTitle": "Présidents du Comité",
+      "proceedingTitle": "Comité des Actes",
+      "chairs": {
+        "generalChair": "Président Général",
+        "scientificChair": "Président Scientifique",
+        "scientificCoChair": "Co-Président Scientifique"
+      }
+    },
+    "organizingCommittee": {
+      "title": "Comité d'organisation",
+      "subtitle": "Équipe organisatrice",
+      "description": "Le Comité d'organisation de SITE 2025 est responsable de tous les aspects logistiques et opérationnels de la conférence. Cette équipe dévouée travaille sans relâche pour assurer le bon déroulement de l'événement et offrir une expérience exceptionnelle à tous les participants.",
+      "membersTitle": "Membres du Comité"
+    },
+    "venue": {
+      "title": "Lieu",
+      "subtitle": "À propos du lieu",
+      "location": "Emplacement",
+      "description": "L'Institut Supérieur des Études Technologiques de Bizerte (ISET Bizerte) est un institut technologique prestigieux situé à Bizerte, en Tunisie. L'institut offre des installations de pointe pour accueillir des conférences internationales et des événements académiques. Avec ses équipements modernes et son environnement propice à l'apprentissage, l'ISET Bizerte constitue le cadre idéal pour SITE 2025."
+    },
+    "authors": {
+      "title": "Auteurs",
+      "subtitle": "Tout ce que vous devez savoir pour soumettre à SITE 2025",
+      "description": "Guide complet pour les auteurs souhaitant soumettre leurs travaux à SITE 2025",
+      "importantDates": {
+        "title": "Dates Importantes",
+        "description": "Marquez votre calendrier avec ces étapes essentielles pour SITE 2025"
+      },
+      "dates": {
+        "paperSubmission": {
+          "date": "30 juillet 2025",
+          "event": "Date limite de soumission des articles",
+          "description": "Date limite finale pour toutes les soumissions d'articles"
+        },
+        "acceptanceNotification": {
+          "date": "15 septembre 2025",
+          "event": "Notification d'acceptation",
+          "description": "Les auteurs seront notifiés de l'acceptation des articles"
+        },
+        "registrationDeadline": {
+          "date": "20 septembre 2025",
+          "event": "Date limite d'inscription",
+          "description": "Fermeture de l'inscription à tarif réduit"
+        },
+        "cameraReady": {
+          "date": "1er octobre 2025",
+          "event": "Soumission de la version finale",
+          "description": "Versions finales des articles dues"
+        },
+        "conference": {
+          "date": "24–26 octobre 2025",
+          "event": "Conférence SITE 2025",
+          "description": "Conférence principale à Tunis, Tunisie"
+        }
+      }
+    },
+    "program": {
+      "title": "Programme",
+      "subtitle": "Programme de la conférence"
+    },
+    "previousEditions": {
+      "title": "Éditions précédentes",
+      "subtitle": "Découvrez les éditions passées",
+      "site2023Description": "Première édition de la conférence sur l'Industrie Intelligente, la Technologie et l'Environnement",
+      "site2024Description": "Deuxième édition de la conférence sur l'Industrie Intelligente, la Technologie et l'Environnement"
+    },
+    "site2023": {
+      "title": "SITE 2023",
+      "subtitle": "Première édition - Industrie Intelligente, Technologie et Environnement",
+      "date": "03-04-05 Novembre 2023",
+      "location": "Hammamet, Tunisie",
+      "callForPapers": "Appel à communications 2023",
+      "program": "Programme 2023",
+      "speakers": "Conférenciers vedettes",
+      "eventGallery": "Galerie de l'événement"
+    },
+    "site2024": {
+      "title": "SITE 2024",
+      "subtitle": "Deuxième édition - Industrie Intelligente, Technologie et Environnement",
+      "date": "08-09-10 Novembre 2024",
+      "location": "Hammamet, Tunisie",
+      "callForPapers": "Appel à communications 2024",
+      "program": "Programme 2024",
+      "speakers": "Conférenciers vedettes",
+      "eventGallery": "Galerie de l'événement"
+    },
+    "contactUs": {
+      "title": "Nous contacter",
+      "subtitle": "Contactez-nous",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email"
+    },
+    "notFound": {
+      "title": "Page non trouvée",
+      "subtitle": "La page que vous cherchez n'existe pas",
+      "backHome": "Retour à l'accueil"
+    }
+  },
+  "callForPapers": {
+    "title": "Appel à communications",
+    "subtitle": "Soumettez vos recherches pour SITE 2025",
+    "description": "Nous invitons les chercheurs, académiques et professionnels du monde entier à soumettre leurs travaux originaux et innovants pour la conférence SITE 2025. Cette conférence offre une plateforme unique pour présenter vos recherches de pointe.",
+    "introduction": "SITE 2025 recherche des contributions de haute qualité dans tous les domaines liés à l'industrie intelligente, la technologie et l'environnement.",
+    "topics": {
+      "title": "Sujets d'intérêt (non exhaustif)",
+      "subtitle": "Les soumissions sont encouragées dans les domaines suivants :",
+      "categories": {
+        "smartIndustry": {
+          "title": "Industrie Intelligente et Industrie 4.0",
+          "topics": [
+            "Systèmes cyber-physiques",
+            "Internet des objets industriel (IIoT)",
+            "Fabrication intelligente et additive",
+            "Automatisation avancée et robotique",
+            "Maintenance prédictive",
+            "Jumeaux numériques",
+            "Systèmes de production flexibles"
+          ]
+        },
+        "ai": {
+          "title": "Intelligence Artificielle et Technologies Émergentes",
+          "topics": [
+            "Apprentissage automatique et deep learning",
+            "Traitement du langage naturel",
+            "Vision par ordinateur",
+            "Systèmes experts et aide à la décision",
+            "Blockchain et technologies distribuées",
+            "Informatique quantique",
+            "Réalité augmentée et virtuelle"
+          ]
+        },
+        "environment": {
+          "title": "Technologies Environnementales et Durables",
+          "topics": [
+            "Énergies renouvelables et stockage",
+            "Efficacité énergétique",
+            "Gestion intelligente des déchets",
+            "Technologies propres",
+            "Économie circulaire",
+            "Surveillance environnementale",
+            "Développement durable"
+          ]
+        },
+        "data": {
+          "title": "Données et Cybersécurité",
+          "topics": [
+            "Big Data et analyse de données",
+            "Cybersécurité industrielle",
+            "Protection de la vie privée",
+            "Sécurité des systèmes IoT",
+            "Cryptographie appliquée",
+            "Détection d'intrusions",
+            "Gouvernance des données"
+          ]
+        }
+      }
+    },
+    "types": {
+      "title": "Types de soumissions",
+      "fullPaper": {
+        "title": "Articles complets",
+        "description": "Recherches originales complètes (6-8 pages)",
+        "presentation": "Présentation orale de 15 minutes"
+      },
+      "shortPaper": {
+        "title": "Articles courts",
+        "description": "Travaux en cours ou résultats préliminaires (4 pages)",
+        "presentation": "Présentation orale de 10 minutes"
+      },
+      "poster": {
+        "title": "Posters",
+        "description": "Présentation visuelle de recherches (2 pages)",
+        "presentation": "Session poster interactive"
+      },
+      "demo": {
+        "title": "Démonstrations",
+        "description": "Démonstrations de systèmes ou prototypes",
+        "presentation": "Session de démonstration"
+      }
+    },
+    "guidelines": {
+      "title": "Directives de soumission",
+      "format": {
+        "title": "Format des articles",
+        "template": "Utiliser obligatoirement le modèle IEEE fourni",
+        "language": "Français ou Anglais acceptés",
+        "pages": "6-8 pages maximum pour les articles complets",
+        "font": "Times New Roman, 10pt",
+        "margins": "Marges standard IEEE",
+        "references": "Style IEEE pour les références"
+      },
+      "content": {
+        "title": "Contenu requis",
+        "abstract": "Résumé de 150-200 mots",
+        "keywords": "3-5 mots-clés",
+        "introduction": "Introduction claire du problème",
+        "methodology": "Méthodologie détaillée",
+        "results": "Résultats et évaluation",
+        "conclusion": "Conclusion et travaux futurs",
+        "references": "Références bibliographiques complètes"
+      },
+      "quality": {
+        "title": "Critères de qualité",
+        "originality": "Originalité et nouveauté",
+        "significance": "Importance et impact",
+        "technical": "Qualité technique",
+        "clarity": "Clarté de présentation",
+        "relevance": "Pertinence pour la conférence"
+      },
+      "review": {
+        "title": "Processus d'évaluation",
+        "type": "Évaluation par les pairs en double aveugle",
+        "reviewers": "Minimum 3 évaluateurs par article",
+        "criteria": "Évaluation selon les critères de qualité",
+        "feedback": "Commentaires détaillés fournis"
+      }
+    },
+    "importantDates": {
+      "title": "Dates importantes",
+      "subtitle": "Respectez ces échéances pour votre soumission",
+      "submission": {
+        "date": "30 juillet 2025",
+        "description": "Date limite de soumission des articles"
+      },
+      "notification": {
+        "date": "15 septembre 2025",
+        "description": "Notification d'acceptation aux auteurs"
+      },
+      "camera": {
+        "date": "1er octobre 2025",
+        "description": "Soumission de la version finale"
+      },
+      "registration": {
+        "date": "10 mars 2025",
+        "description": "Date limite d'inscription des auteurs"
+      },
+      "earlyBird": {
+        "date": "1er février 2025",
+        "description": "Fin du tarif préférentiel d'inscription"
+      }
+    },
+    "submission": {
+      "title": "Comment soumettre",
+      "subtitle": "Processus de soumission en 4 étapes",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Préparer votre article",
+          "description": "Rédigez votre article selon le modèle IEEE fourni"
+        },
+        {
+          "number": "2",
+          "title": "Créer un compte",
+          "description": "Inscrivez-vous sur la plateforme EasyChair"
+        },
+        {
+          "number": "3",
+          "title": "Télécharger votre article",
+          "description": "Soumettez votre article en format PDF"
+        },
+        {
+          "number": "4",
+          "title": "Attendre la notification",
+          "description": "Recevez la décision d'acceptation par email"
+        }
+      ],
+      "platform": {
+        "title": "Plateforme de soumission",
+        "name": "EasyChair",
+        "url": "https://easychair.org/conferences/?conf=site2025",
+        "description": "Toutes les soumissions doivent être faites via EasyChair"
+      },
+      "support": {
+        "title": "Support technique",
+        "email": "submissions@site-conf.com",
+        "description": "Contactez-nous pour toute question technique"
+      },
+      "requirements": {
+        "title": "Exigences techniques",
+        "format": "PDF uniquement",
+        "size": "Maximum 10 MB",
+        "anonymity": "Article anonymisé (sans noms d'auteurs)",
+        "plagiarism": "Vérification anti-plagiat effectuée"
+      }
+    },
+    "publication": {
+      "title": "Publication",
+      "proceedings": "Les articles acceptés seront publiés dans les actes de la conférence",
+      "indexing": "Indexation dans IEEE Xplore et autres bases de données",
+      "journal": "Articles sélectionnés invités dans des revues spécialisées",
+      "copyright": "Droits d'auteur IEEE requis pour publication"
+    },
+    "awards": {
+      "title": "Prix et distinctions",
+      "bestPaper": "Prix du meilleur article",
+      "bestStudent": "Prix du meilleur article étudiant",
+      "bestPoster": "Prix du meilleur poster",
+      "criteria": "Évaluation basée sur l'originalité, la qualité et l'impact"
+    }
+  },
+  "callForSpecialSessions": {
+    "title": "Appel à sessions spéciales",
+    "subtitle": "Organisez une session thématique",
+    "description": "Les organisateurs de la conférence SITE'2025 invitent les chercheurs à soumettre des propositions de Sessions Spéciales (SS). Ces sessions offrent une plateforme aux experts de thèmes spécifiques pour présenter leurs découvertes récentes et s'engager dans des discussions académiques. Les propositions de SS acceptées seront listées sur le site web de la conférence avec les noms des organisateurs. Tous les articles soumis à une SS subiront le processus d'évaluation standard appliqué aux articles réguliers. Une SS sera programmée dans le programme final une fois qu'un minimum de 5 articles aura été accepté.",
+    "coordinators": {
+      "title": "Coordinateurs",
+      "list": [
+        {
+          "name": "Jihed ZGHAL",
+          "affiliation": "IUT Ville d'Avray – France"
+        },
+        {
+          "name": "Atef BOULILA",
+          "affiliation": "INSAT – Tunisia"
+        }
+      ]
+    },
+    "requirements": {
+      "title": "Exigences",
+      "minPapers": "Minimum 5 articles acceptés",
+      "evaluation": "Évaluation standard appliquée",
+      "listing": "Listage sur le site web",
+      "organizers": "Noms des organisateurs affichés"
+    },
+    "benefits": {
+      "title": "Avantages",
+      "platform": "Plateforme pour experts",
+      "discussions": "Discussions académiques",
+      "networking": "Opportunités de réseautage",
+      "visibility": "Visibilité accrue"
+    }
+  },
+  "committees": {
+    "title": "Comités",
+    "subtitle": "Découvrez nos comités d'experts",
+    "description": "SITE 2025 est organisé par des comités dédiés d'experts internationaux, d'universitaires et de professionnels qui assurent le succès de la conférence et maintiennent ses hauts standards de qualité et d'excellence.",
+    "membersLabel": "Membres",
+    "roleLabel": "Rôle",
+    "viewCommittee": "Voir le Comité",
+    "honorary": {
+      "members": "6 membres",
+      "role": "Orientation stratégique et standards académiques"
+    },
+    "scientific": {
+      "members": "70+ membres",
+      "role": "Évaluation des articles et supervision scientifique"
+    },
+    "organizing": {
+      "members": "30+ membres",
+      "role": "Organisation de la conférence et logistique"
+    },
+    "collaboration": {
+      "title": "Collaboration des Comités",
+      "description": "Tous les comités travaillent ensemble pour s'assurer que SITE 2025 offre une expérience de conférence de classe mondiale. Le Comité d'honneur fournit l'orientation stratégique, le Comité scientifique assure l'excellence académique, et le Comité d'organisation gère tous les aspects opérationnels."
+    },
+    "join": {
+      "title": "Rejoignez Nos Comités",
+      "description": "Nous accueillons les professionnels qualifiés et les universitaires pour rejoindre nos comités pour les futures éditions de SITE. Si vous êtes intéressé à contribuer au succès de la conférence, veuillez nous contacter.",
+      "contactUs": "Nous Contacter"
+    }
+  },
+  "contactUs": {
+    "title": "Nous contacter",
+    "subtitle": "Entrez en contact avec l'équipe de la conférence SITE",
+    "description": "N'hésitez pas à nous contacter pour toute question concernant la conférence SITE 2025. Notre équipe est là pour vous aider et vous accompagner dans votre participation.",
+    "getInTouch": "Entrez en contact",
+    "contactInfo": "Informations de contact",
+    "followUs": "Suivez-nous",
+    "form": {
+      "title": "Formulaire de contact",
+      "subtitle": "Envoyez-nous un message",
+      "name": "Nom complet",
+      "email": "Adresse email",
+      "subject": "Sujet",
+      "message": "Votre message",
+      "send": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Message envoyé avec succès !",
+      "error": "Erreur lors de l'envoi du message",
+      "required": "Ce champ est obligatoire"
+    },
+    "info": {
+      "address": {
+        "title": "Adresse",
+        "line1": "Institut Supérieur des Études Technologiques",
+        "line2": "Route de Tunis, Km 10",
+        "line3": "7000 Bizerte, Tunisie"
+      },
+      "phone": {
+        "title": "Téléphone",
+        "main": "+216 72 590 312",
+        "mobile": "+216 98 123 456"
+      },
+      "email": {
+        "title": "Email",
+        "general": "contact@site-conf.com",
+        "submissions": "submissions@site-conf.com",
+        "registration": "registration@site-conf.com",
+        "sponsors": "sponsors@site-conf.com"
+      }
+    },
+    "social": {
+      "followUs": "Suivez-nous"
+    },
+    "map": {
+      "title": "Notre Emplacement",
+      "conferenceLocation": "Lieu de la Conférence"
+    }
+  },
+  "acknowledgment": {
+    "title": "Remerciements",
+    "message": "Nous exprimons notre sincère gratitude à tous les membres du Comité d'honneur pour leurs précieuses contributions, leurs conseils et leur soutien continu qui font de SITE 2025 une conférence internationale de premier plan dans le domaine de l'Industrie Intelligente, de la Technologie et de l'Environnement."
+  },
+  "footer": {
+    "description": "SITE 2025 - Conférence Internationale sur l'Industrie Intelligente, la Technologie et l'Environnement",
+    "quickLinks": {
+      "title": "Liens rapides",
+      "home": "Accueil",
+      "about": "À propos",
+      "program": "Programme",
+      "registration": "Inscription",
+      "venue": "Lieu",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Bizerte, Tunisie",
+      "email": "contact@site-conf.com",
+      "phone": "+216 72 590 312"
+    },
+    "contactUs": "Nous contacter",
+    "address": "Bizerte, Tunisie",
+    "copyright": "© 2025 SITE Conference. Tous droits réservés."
+  },
+  "submissionGuidelines": {
+    "title": "Directives de soumission",
+    "subtitle": "Instructions pour soumettre votre article",
+    "language": {
+      "title": "Langue",
+      "requirement": "Tous les articles doivent être rédigés en anglais ou en français."
+    },
+    "template": {
+      "title": "Modèle",
+      "download": "Télécharger le modèle"
+    },
+    "abstract": {
+      "title": "Résumé",
+      "submit": "Soumettre votre résumé"
+    },
+    "platform": {
+      "title": "Plateforme de gestion",
+      "description": "Le service Microsoft CMT a été utilisé pour gérer le processus d'évaluation par les pairs pour cette conférence. Ce service a été fourni gratuitement par Microsoft et ils ont pris en charge toutes les dépenses, y compris les coûts des services cloud Azure ainsi que pour le développement et le support logiciel."
+    }
+  },
+  "description": "SITE 2025 est organisé par des comités dédiés d'experts internationaux, d'universitaires et de professionnels qui assurent le succès de la conférence et maintiennent ses normes élevées de qualité et d'excellence.",
+  "membersLabel": "Membres",
+  "roleLabel": "Rôle",
+  "viewCommittee": "Voir le Comité",
+  "honorary": {
+    "members": "6 membres",
+    "role": "Orientation stratégique et normes académiques"
+  },
+  "scientific": {
+    "members": "70+ membres",
+    "role": "Révision des articles et supervision scientifique"
+  },
+  "organizing": {
+    "members": "30+ membres",
+    "role": "Organisation de la conférence et logistique"
+  },
+  "organizingCommittee": {
+    "membersTitle": "Membres du Comité"
+  },
+  "collaboration": {
+    "title": "Collaboration des Comités",
+    "description": "Tous les comités travaillent ensemble pour garantir que SITE 2025 offre une expérience de conférence de classe mondiale. Le Comité d'honneur fournit une direction stratégique, le Comité scientifique assure l'excellence académique, et le Comité d'organisation gère tous les aspects opérationnels."
+  },
+  "join": {
+    "title": "Rejoignez Nos Comités",
+    "description": "Nous accueillons des professionnels et des universitaires qualifiés pour rejoindre nos comités pour les futures éditions de SITE. Si vous êtes intéressé à contribuer au succès de la conférence, veuillez nous contacter.",
+    "contactUs": "Nous Contacter"
+  }
+}

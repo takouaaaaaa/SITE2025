@@ -1,0 +1,723 @@
+{
+  "header": {
+    "navigation": {
+      "home": "Home",
+      "venue": "Venue",
+      "committees": "Committees",
+      "honoraryCommittee": "Honorary Committee",
+      "scientificCommittee": "Scientific Committee",
+      "organizingCommittee": "Organizing Committee",
+      "program": "Program",
+      "authors": "Authors",
+      "callForPapers": "Call for Papers",
+      "callForSpecialSessions": "Call for Special Sessions",
+      "submissionGuidelines": "Submission Guidelines",
+      "registration": "Registration",
+      "previousEditions": "Previous Editions",
+      "site2023": "SITE 2023",
+      "site2024": "SITE 2024",
+      "contactUs": "Contact Us"
+    }
+  },
+  "hero": {
+    "slides": {
+      "slide1": {
+        "title": "International Conference on Smart Industry, Technology and Environment",
+        "subtitle": "SITE 2025",
+        "description": "Shaping the Future of Smart Manufacturing, IoT Innovation, and Sustainable Technology Solutions",
+        "highlight": "March 15-17, 2025 • Tunis, Tunisia",
+        "buttons": {
+          "submitPaper": "Submit Paper",
+          "learnMore": "Learn More"
+        }
+      },
+      "slide2": {
+        "title": "Cutting-Edge Research & Innovation",
+        "subtitle": "AI & Industry 4.0",
+        "description": "Explore breakthrough technologies in Artificial Intelligence, Machine Learning, and Smart Manufacturing",
+        "highlight": "500+ Researchers • 50+ Countries",
+        "buttons": {
+          "viewProgram": "View Program",
+          "registerNow": "Register Now"
+        }
+      },
+      "slide3": {
+        "title": "Sustainable Technology Solutions",
+        "subtitle": "Green Innovation",
+        "description": "Discover eco-friendly technologies and sustainable practices for a better tomorrow",
+        "highlight": "Carbon Neutral Event • Green Tech Focus",
+        "buttons": {
+          "callForPapers": "Call for Papers",
+          "sponsors": "Sponsors"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "About the conference",
+    "description": "The 3rd edition of the international conference on Smart Industry, Technology and Environment \"SITE'2025\" aims to bring together academicians, researchers, professionals and experts from various fields to share their latest findings, innovations and best practices. It consists of keynotes, oral sessions and poster presentations. SITE'2025 facilitates interdisciplinary collaboration and promotes sustainable development by exploring cutting-edge advancements in various fields. The international scientific committee selects the best papers for publication in specialized journals, considering their alignment with the conference's scope. These chosen papers are recommended for publication to guarantee their quality and significance within the research community.",
+    "themes": {
+      "title": "Topics"
+    }
+  },
+  "partners": {
+    "title": "Partners & Sponsors"
+  },
+  "acknowledgment": {
+    "title": "Acknowledgment",
+    "message": "We extend our sincere gratitude to all Honorary Committee members for their valuable contributions, guidance, and continued support in making SITE 2025 a premier international conference in Smart Industry, Technology and Environment."
+  },
+  "footer": {
+    "description": "SITE 2025 - International Conference on Smart Industry, Technology and Environment",
+    "quickLinks": {
+      "title": "Quick Links",
+      "home": "Home",
+      "about": "About",
+      "program": "Program",
+      "registration": "Registration",
+      "venue": "Venue",
+      "contact": "Contact"
+    },
+    "contact": {
+      "title": "Contact",
+      "address": "Bizerte, Tunisia",
+      "email": "contact@site-conf.com",
+      "phone": "+216 72 590 312"
+    },
+    "contactUs": "Contact Us",
+    "address": "Bizerte, Tunisia",
+    "copyright": "© 2025 SITE Conference. All rights reserved."
+  },
+  "program": {
+    "title": "SITE 2025 Conference Program",
+    "subtitle": "Discover our exciting lineup of speakers, sessions, and cutting-edge research presentations",
+    "stats": {
+      "speakers": "Expert Speakers",
+      "days": "Conference Days",
+      "sessions": "Sessions"
+    },
+    "speakers": {
+      "title": "Our Distinguished Speakers",
+      "subtitle": "Meet the industry experts who will share their insights",
+      "list": [
+        {
+          "name": "Prof. Ahmed BENALI",
+          "title": "Research Director",
+          "affiliation": "National Institute of Technology",
+          "topic": "Artificial Intelligence and Industry 4.0"
+        },
+        {
+          "name": "Dr. Sarah MARTIN",
+          "title": "Innovation Manager",
+          "affiliation": "European Technology Center",
+          "topic": "Sustainable Technologies"
+        },
+        {
+          "name": "Prof. Mohamed HASSAN",
+          "title": "Department Head",
+          "affiliation": "University of Technology",
+          "topic": "Smart Systems"
+        },
+        {
+          "name": "Dr. Elena RODRIGUEZ",
+          "title": "R&D Director",
+          "affiliation": "Advanced Research Institute",
+          "topic": "Technological Innovation"
+        }
+      ]
+    },
+    "schedule": {
+      "title": "Detailed Program",
+      "subtitle": "Plan your conference experience day-by-day",
+      "days": {
+        "march15": "March 15, 2025",
+        "march16": "March 16, 2025",
+        "march17": "March 17, 2025",
+        "specialSessions": "Special Sessions"
+      },
+      "events": {
+        "registration": "Registration & Welcome Coffee",
+        "opening": "Opening Ceremony",
+        "keynote1": "Keynote: Future of Smart Industry",
+        "coffeeBreak": "Coffee Break",
+        "session1": "Technical Session 1: IoT & Smart Systems",
+        "lunch": "Lunch Break",
+        "session2": "Technical Session 2: AI & Machine Learning",
+        "panel": "Panel Discussion: Industry 4.0 Trends",
+        "keynote2": "Keynote: Sustainable Technology Solutions",
+        "session3": "Technical Session 3: Environmental Technology",
+        "session4": "Technical Session 4: Smart Manufacturing",
+        "workshop": "Workshop: Hands-on Smart Systems",
+        "poster": "Poster Session & Networking",
+        "keynote3": "Keynote: Digital Transformation in Industry",
+        "session5": "Technical Session 5: Cybersecurity & Data Analytics",
+        "session6": "Technical Session 6: Emerging Technologies",
+        "closing": "Closing Ceremony & Awards",
+        "toBeAnnounced": "to be announced soon"
+      },
+      "times": {
+        "morning": "Morning",
+        "afternoon": "Afternoon",
+        "evening": "Evening"
+      }
+    }
+  },
+  "registration": {
+    "title": "Registration",
+    "subtitle": "SITE 2025 - Smart Industry, Technology and Environment",
+    "description": "Register now to participate in SITE 2025 conference",
+    "requirements": {
+      "title": "Registration Requirements",
+      "description": "For the inclusion of an accepted paper in the conference, at least one author of the paper must register for the congress and pay the fee before the deadline.",
+      "covers": "The registration fee covers:",
+      "materials": "All conference materials",
+      "accommodation": "Hotel full boarding in a double room (shared with another participant) for two nights",
+      "options": "You may register to attend the conference either:",
+      "present": "To present papers",
+      "audience": "Or as audience",
+      "withWithout": "The registration may be with or without accommodation."
+    },
+    "schedule": {
+      "title": "Accommodation Schedule",
+      "arrival": "Arrival (check-in): March 15th after 12:00",
+      "departure": "Departure (check-out): March 17th before 12:00",
+      "duration": "3 days conference",
+      "location": "Tunis, Tunisia"
+    },
+    "fees": {
+      "title": "Registration Fees",
+      "subtitle": "Rates for SITE 2025",
+      "description": "Choose your registration type according to your profile",
+      "withAccommodation": "With Accommodation",
+      "withoutAccommodation": "Without Accommodation",
+      "withoutAccommodationTitle": "Without Accommodation",
+      "category": "Category",
+      "fromTunisia": "From Tunisia",
+      "fromOtherCountries": "From other countries",
+      "academic": "Academic",
+      "student": "Student",
+      "professional": "Professional",
+      "prices": {
+        "tunisia": {
+          "academicWithAccommodation": "700 TND",
+          "studentWithAccommodation": "650 TND",
+          "professionalWithAccommodation": "750 TND",
+          "academicWithoutAccommodation": "450 TND",
+          "studentWithoutAccommodation": "400 TND",
+          "professionalWithoutAccommodation": "500 TND"
+        },
+        "international": {
+          "academicWithAccommodation": "450 €",
+          "studentWithAccommodation": "400 €",
+          "professionalWithAccommodation": "500 €",
+          "academicWithoutAccommodation": "300 €",
+          "studentWithoutAccommodation": "250 €",
+          "professionalWithoutAccommodation": "350 €"
+        }
+      },
+      "includes": {
+        "title": "Registration fees include:",
+        "materials": "All conference materials",
+        "meals": "Lunches and coffee breaks during the conference",
+        "accommodation": "Full board accommodation (if selected)",
+        "certificate": "Official participation certificate",
+        "proceedings": "Conference proceedings (electronic version)",
+        "networking": "Access to networking events",
+        "wifi": "Free WiFi access",
+        "transport": "Local transfers included"
+      },
+      "accommodationDetails": {
+        "title": "Accommodation Details",
+        "roomType": "Shared double room",
+        "meals": "Full board (breakfast, lunch, dinner)",
+        "duration": "2 nights (March 15-17, 2025)",
+        "hotel": "4-star hotel in Tunis",
+        "amenities": "WiFi, air conditioning, private bathroom"
+      },
+      "withoutAccommodationPrice": "450 TND",
+      "withoutAccommodationDescription": "The registration fee covers all conference materials, lunches, and coffee breaks:",
+      "venueInfo": "For more details on accommodation and conference hotel, see Venue page.",
+      "earlyBird": {
+        "title": "Early Bird Rate",
+        "description": "10% discount for registrations before February 1st, 2025",
+        "deadline": "Deadline: February 1st, 2025"
+      }
+    },
+    "payment": {
+      "title": "Payment Methods",
+      "bankTransfer": "Bank Transfer",
+      "bankTransferRules": [
+        "Pay the full amount without any deduction and all bank charges paid by the beneficiary",
+        "Payment can't be refunded",
+        "Send a scanned copy of the payment Banking Transfer Order to: contact@site-conf.com"
+      ],
+      "bonCommande": "Bon de commande",
+      "bonCommandeNote": "(Only for Tunisian Universities)",
+      "instructions": "Payment instructions",
+      "deadline": "Payment deadline: March 10th, 2025"
+    },
+    "bankDetails": {
+      "title": "Bank Account Details",
+      "bankInfo": "Bank Information",
+      "bank": "Union Internationale des Banques",
+      "address": "Menzel Jemil",
+      "purpose": "Registration to SITE 2025",
+      "accountName": "Association de développement technologique de Bizerte",
+      "paymentTo": "Payment To:",
+      "accountNumber": "Account Number: 12202000009030939395",
+      "iban": "IBAN: TN591220200009030939395",
+      "swift": "Swift: UIBKTNTT",
+      "taxId": "Tax Identification Number (TIN): 1343117/A",
+      "rne": "National Business Registry (RNE):",
+      "downloadBankId": "[Download bank identity]",
+      "downloadTaxId": "[Download Tax ID]",
+      "downloadRne": "[Download RNE]"
+    },
+    "additionalFees": {
+      "title": "Additional Fees",
+      "feeType": "Fee Type",
+      "fromTunisia": "From Tunisia",
+      "fromOtherCountries": "From Other Countries",
+      "adultAccompanying": "Adult accompanying person",
+      "adultAccompanyingTunisia": "120 TND / night",
+      "adultAccompanyingInternational": "80 € / night",
+      "singleSupplement": "Single supplement",
+      "singleSupplementTunisia": "25 TND / night",
+      "singleSupplementInternational": "25 € / night",
+      "childrenUnder2": "Children < 2 years",
+      "childUnder12With2Adults": "Child < 12 years with 2 adults",
+      "childUnder12Separate": "Child < 12 years in separate room or with single adult",
+      "free": "Free",
+      "discount50": "50% discount",
+      "discount30": "30% discount",
+      "additionalServices": "Additional Services",
+      "airportTransfer": "Airport transfer (Tunis Carthage Airport ↔ hotel): 50 €",
+      "socialEvent": "Additional charges for Social Event: 100 € / 50 TND"
+    },
+    "access": {
+      "registrationClosed": "Registration Closed",
+      "registrationClosedOn": "Registration closed on {{date}}",
+      "registrationNoLongerAvailable": "Registration is no longer available for this conference.",
+      "registrationOpen": "Registration is Open!",
+      "dontMissOut": "Don't miss out - register now for SITE 2025",
+      "registrationCloses": "Registration closes on {{date}}",
+      "startRegistration": "Start Registration",
+      "registrationOpeningSoon": "Registration Opening Soon",
+      "registrationWillOpen": "Registration will open on {{date}}",
+      "getReady": "Get ready to secure your spot at SITE 2025",
+      "comingSoon": "Coming Soon"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@site-conf.com",
+      "moreInfo": "For more information, please contact the organizers."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "viewMore": "View More",
+    "viewLess": "View Less"
+  },
+  "pages": {
+    "home": {
+      "title": "Home",
+      "aboutConference": "About the conference",
+      "aboutDescription": "The 3rd edition of the international conference on Smart Industry, Technology and Environment \"SITE'2025\" aims to bring together academicians, researchers, professionals and experts from various fields to share their latest findings, innovations and best practices.",
+      "topics": "Topics"
+    },
+    "venue": {
+      "title": "Venue",
+      "subtitle": "Conference venue information",
+      "location": "Location",
+      "address": "Address",
+      "accommodation": "Accommodation",
+      "transport": "Transportation"
+    },
+    "callForPapers": {
+      "title": "Call for Papers",
+      "subtitle": "Submit your research",
+      "description": "We invite researchers to submit their original work",
+      "deadline": "Deadline",
+      "guidelines": "Guidelines"
+    },
+    "callForSpecialSessions": {
+      "title": "Call for Special Sessions",
+      "subtitle": "Propose a special session",
+      "description": "Organize a thematic session"
+    },
+    "submissionGuidelines": {
+      "title": "Submission Guidelines",
+      "subtitle": "How to submit your paper",
+      "format": "Format",
+      "requirements": "Requirements",
+      "process": "Process"
+    },
+    "registration": {
+      "title": "Registration",
+      "subtitle": "Register for the conference",
+      "description": "Register now to participate in SITE 2025",
+      "fees": "Fees",
+      "payment": "Payment",
+      "deadline": "Deadline"
+    },
+    "registrationForm": {
+      "title": "Conference Registration Form",
+      "subtitle": "SITE 2025 - Smart Industry, Technology and Environment",
+      "personalInfo": {
+        "title": "Personal Information",
+        "fullName": "Full Name",
+        "fullNamePlaceholder": "Enter your full name",
+        "institution": "Institution",
+        "institutionPlaceholder": "Enter your institution/organization",
+        "position": "Position",
+        "positionPlaceholder": "Enter your position or title",
+        "email": "Email Address",
+        "emailPlaceholder": "Enter your email address",
+        "phone": "Phone Number",
+        "phonePlaceholder": "Enter your phone number"
+      },
+      "conferenceOptions": {
+        "title": "Conference Options & Registration Details",
+        "participantCategory": "Participant Category",
+        "participantCategoryPlaceholder": "Select your category",
+        "academic": "Academic",
+        "student": "Student",
+        "professional": "Professional",
+        "location": "Location",
+        "locationPlaceholder": "Select your location",
+        "fromTunisia": "From Tunisia",
+        "fromOtherCountries": "From other countries",
+        "accommodation": "I want accommodation (hotel full boarding for 2 nights)",
+        "singleRoom": "I want a single room (additional charge applies)",
+        "withArticle": "I will present an article/paper at the conference",
+        "airportTransfer": "I need airport transfer (Tunis Carthage Airport ↔ hotel) - 50 €",
+        "socialEvent": "I want to attend the social event (additional charge)",
+        "withAccompanying": "I will be accompanied by other persons"
+      },
+      "accompanyingPersons": {
+        "title": "Accompanying Persons",
+        "pricingInfo": "Pricing Information:",
+        "childrenUnder2": "Children under 2 years: Free",
+        "childrenUnder12With2Adults": "Children under 12 years with 2 adults: 50% discount",
+        "childrenUnder12Separate": "Children under 12 years in separate room or with single adult: 30% discount",
+        "adults": "Adults (18+ years): Full price",
+        "namePlaceholder": "Enter name of accompanying person",
+        "agePlaceholder": "Age",
+        "add": "Add",
+        "yearsOld": "years old"
+      },
+      "feeCalculation": {
+        "title": "Registration Fee Calculation",
+        "baseRegistrationFee": "Base Registration Fee",
+        "singleRoomSupplement": "Single Room Supplement (2 nights)",
+        "accompanyingPersons": "Accompanying Persons (2 nights)",
+        "airportTransfer": "Airport Transfer",
+        "socialEvent": "Social Event",
+        "totalAmount": "Total Amount",
+        "free": "Free",
+        "childDiscount50": "(50% child discount)",
+        "childDiscount30": "(30% child discount)"
+      },
+      "payment": {
+        "title": "Payment Information",
+        "paymentMethod": "Payment Method",
+        "paymentMethodPlaceholder": "Select payment method",
+        "bankTransfer": "Paiement par virement bancaire",
+        "administrativeOrder": "Paiement par mandat administratif (bons de commande)",
+        "check": "Paiement par chèque",
+        "paymentSummary": "Payment Summary",
+        "totalAmountToPay": "Total Amount to Pay",
+        "paymentNote": "Please ensure your payment matches this exact amount. The payment amount is automatically calculated based on your registration selections.",
+        "paymentProof": "Payment Proof",
+        "chooseFile": "Choose image file",
+        "fileHelpText": "Upload an image of your payment receipt or proof"
+      },
+      "actions": {
+        "submit": "Submit Registration",
+        "submitting": "Submitting..."
+      }
+    },
+    "committees": {
+      "title": "Committees",
+      "subtitle": "Discover our committees",
+      "description": "SITE 2025 is organized by dedicated committees of international experts, academics, and professionals who ensure the conference's success and maintain its high standards of quality and excellence.",
+      "membersLabel": "Members",
+      "roleLabel": "Role",
+      "viewCommittee": "View Committee",
+      "honorary": {
+        "members": "6 members",
+        "role": "Strategic guidance and academic standards"
+      },
+      "scientific": {
+        "members": "70+ members",
+        "role": "Paper review and scientific oversight"
+      },
+      "organizing": {
+        "members": "30+ members",
+        "role": "Conference organization and logistics"
+      },
+      "collaboration": {
+        "title": "Committee Collaboration",
+        "description": "All committees work together to ensure SITE 2025 delivers a world-class conference experience. The Honorary Committee provides strategic direction, the Scientific Committee ensures academic excellence, and the Organizing Committee handles all operational aspects."
+      },
+      "join": {
+        "title": "Join Our Committees",
+        "description": "We welcome qualified professionals and academics to join our committees for future editions of SITE. If you're interested in contributing to the conference's success, please contact us.",
+        "contactUs": "Contact Us"
+      }
+    },
+    "honoraryCommittee": {
+      "title": "Honorary Committee",
+      "subtitle": "Honorary committee members",
+      "description": "The Honorary Committee of SITE 2025 is composed of distinguished personalities from the academic and industrial world who bring their expertise and vision to guide the strategic direction of the conference."
+    },
+    "scientificCommittee": {
+      "title": "Scientific Committee",
+      "subtitle": "International experts",
+      "description": "The Scientific Committee of SITE 2025 is composed of international experts who evaluate submissions and ensure the scientific quality of the conference. Their expertise covers all thematic areas of the conference.",
+      "membersTitle": "Scientific Committee Members",
+      "chairsTitle": "Committee Chairs",
+      "proceedingTitle": "Proceeding Committee",
+      "chairs": {
+        "generalChair": "General Chair",
+        "scientificChair": "Scientific Chair",
+        "scientificCoChair": "Scientific Co-Chair"
+      }
+    },
+    "organizingCommittee": {
+      "title": "Organizing Committee",
+      "subtitle": "Organizing team",
+      "description": "The Organizing Committee of SITE 2025 is responsible for all logistical and operational aspects of the conference. This dedicated team works tirelessly to ensure the smooth running of the event and provide an exceptional experience for all participants.",
+      "membersTitle": "Committee Members"
+    },
+    "venue": {
+      "title": "Venue",
+      "subtitle": "About the venue",
+      "location": "Location",
+      "description": "The Institut Supérieur des Études Technologiques de Bizerte (ISET Bizerte) is a prestigious technological institute located in Bizerte, Tunisia. The institute provides state-of-the-art facilities for hosting international conferences and academic events. With its modern equipment and conducive learning environment, ISET Bizerte is the perfect setting for SITE 2025."
+    },
+    "authors": {
+      "title": "Authors",
+      "subtitle": "Everything you need to know about submitting to SITE 2025",
+      "description": "Complete guide for authors wishing to submit their work to SITE 2025",
+      "importantDates": {
+        "title": "Important Dates",
+        "description": "Mark your calendar with these essential milestones for SITE 2025"
+      },
+      "dates": {
+        "paperSubmission": {
+          "date": "July 30th, 2025",
+          "event": "Paper Submission Deadline",
+          "description": "Final deadline for all paper submissions"
+        },
+        "acceptanceNotification": {
+          "date": "September 15th, 2025",
+          "event": "Acceptance Notification",
+          "description": "Authors will be notified of paper acceptance"
+        },
+        "registrationDeadline": {
+          "date": "September 20th, 2025",
+          "event": "Registration Deadline",
+          "description": "Early bird registration closes"
+        },
+        "cameraReady": {
+          "date": "October 1st, 2025",
+          "event": "Camera-Ready Submission",
+          "description": "Final paper versions due"
+        },
+        "conference": {
+          "date": "October 24–26, 2025",
+          "event": "SITE 2025 Conference",
+          "description": "Main conference in Tunis, Tunisia"
+        }
+      }
+    },
+    "program": {
+      "title": "Program",
+      "subtitle": "Conference program"
+    },
+    "previousEditions": {
+      "title": "Previous Editions",
+      "subtitle": "Discover past editions",
+      "site2023Description": "First edition of the Smart Industry, Technology and Environment conference",
+      "site2024Description": "Second edition of the Smart Industry, Technology and Environment conference"
+    },
+    "site2023": {
+      "title": "SITE 2023",
+      "subtitle": "First Edition - Smart Industry, Technology and Environment",
+      "date": "03-04-05 November 2023",
+      "location": "Hammamet, Tunisia",
+      "callForPapers": "Call for Papers 2023",
+      "program": "Program 2023",
+      "speakers": "Featured Speakers",
+      "eventGallery": "Event Gallery"
+    },
+    "site2024": {
+      "title": "SITE 2024",
+      "subtitle": "Second Edition - Smart Industry, Technology and Environment",
+      "date": "08-09-10 November 2024",
+      "location": "Hammamet, Tunisia",
+      "callForPapers": "Call for Papers 2024",
+      "program": "Program 2024",
+      "speakers": "Featured Speakers",
+      "eventGallery": "Event Gallery"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email"
+    },
+    "notFound": {
+      "title": "Page Not Found",
+      "subtitle": "The page you're looking for doesn't exist",
+      "backHome": "Back to Home"
+    }
+  },
+  "contactUs": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the SITE conference team",
+    "description": "Feel free to contact us for any questions regarding the SITE 2025 conference. Our team is here to help and support you in your participation.",
+    "getInTouch": "Get in touch",
+    "contactInfo": "Contact information",
+    "followUs": "Follow us",
+    "info": {
+      "address": {
+        "title": "Address",
+        "line1": "Institut Supérieur des Études Technologiques",
+        "line2": "Route de Tunis, Km 10",
+        "line3": "7000 Bizerte, Tunisia"
+      },
+      "phone": {
+        "title": "Phone",
+        "main": "+216 72 590 312",
+        "mobile": "+216 98 123 456"
+      },
+      "email": {
+        "title": "Email",
+        "general": "contact@site-conf.com",
+        "submissions": "submissions@site-conf.com",
+        "registration": "registration@site-conf.com",
+        "sponsors": "sponsors@site-conf.com"
+      }
+    },
+    "social": {
+      "followUs": "Follow Us"
+    },
+    "map": {
+      "title": "Our Location",
+      "conferenceLocation": "Conference Location"
+    }
+  },
+  "callForSpecialSessions": {
+    "title": "Call for Special Sessions",
+    "subtitle": "Organize a thematic session",
+    "description": "The organizers of the SITE'2025 conference invite researchers to submit proposals for Special Sessions (SS). These sessions offer a platform for experts in specific themes to present their recent findings and engage in scholarly discussions. Accepted SS proposals will be listed on the conference website along with the names of the organizers. All papers submitted to a SS will undergo the standard evaluation process applied to regular papers. A SS will be scheduled in the final program once a minimum of 5 papers have been accepted.",
+    "coordinators": {
+      "title": "Coordinators",
+      "list": [
+        {
+          "name": "Jihed ZGHAL",
+          "affiliation": "IUT Ville d'Avray – France"
+        },
+        {
+          "name": "Atef BOULILA",
+          "affiliation": "INSAT – Tunisia"
+        }
+      ]
+    }
+  },
+  "submissionGuidelines": {
+    "title": "Submission Guidelines",
+    "subtitle": "Instructions for submitting your paper",
+    "language": {
+      "title": "Language",
+      "requirement": "All papers must be written in English or French."
+    },
+    "template": {
+      "title": "Template",
+      "download": "Download Template"
+    },
+    "abstract": {
+      "title": "Abstract",
+      "submit": "Submit Your Abstract"
+    },
+    "platform": {
+      "title": "Management Platform",
+      "description": "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."
+    }
+  },
+  "committees": {
+    "title": "Committees",
+    "subtitle": "Discover our expert committees",
+    "description": "SITE 2025 is organized by dedicated committees of international experts, academics, and professionals who ensure the conference's success and maintain its high standards of quality and excellence.",
+    "membersLabel": "Members",
+    "roleLabel": "Role",
+    "viewCommittee": "View Committee",
+    "honorary": {
+      "members": "6 members",
+      "role": "Strategic guidance and academic standards"
+    },
+    "scientific": {
+      "members": "70+ members",
+      "role": "Paper review and scientific oversight"
+    },
+    "organizing": {
+      "members": "30+ members",
+      "role": "Conference organization and logistics"
+    },
+    "collaboration": {
+      "title": "Committee Collaboration",
+      "description": "All committees work together to ensure SITE 2025 delivers a world-class conference experience. The Honorary Committee provides strategic direction, the Scientific Committee ensures academic excellence, and the Organizing Committee handles all operational aspects."
+    },
+    "join": {
+      "title": "Join Our Committees",
+      "description": "We welcome qualified professionals and academics to join our committees for future editions of SITE. If you're interested in contributing to the conference's success, please contact us.",
+      "contactUs": "Contact Us"
+    }
+  },
+  "description": "SITE 2025 is organized by dedicated committees of international experts, academics, and professionals who ensure the conference's success and maintain its high standards of quality and excellence.",
+  "membersLabel": "Members",
+  "roleLabel": "Role",
+  "viewCommittee": "View Committee",
+  "honorary": {
+    "members": "6 members",
+    "role": "Strategic guidance and academic standards"
+  },
+  "scientific": {
+    "members": "70+ members",
+    "role": "Paper review and scientific oversight"
+  },
+  "organizing": {
+    "members": "30+ members",
+    "role": "Conference organization and logistics"
+  },
+  "organizingCommittee": {
+    "membersTitle": "Committee Members"
+  },
+  "collaboration": {
+    "title": "Committee Collaboration",
+    "description": "All committees work together to ensure SITE 2025 delivers a world-class conference experience. The Honorary Committee provides strategic direction, the Scientific Committee ensures academic excellence, and the Organizing Committee handles all operational aspects."
+  },
+  "join": {
+    "title": "Join Our Committees",
+    "description": "We welcome qualified professionals and academics to join our committees for future editions of SITE. If you're interested in contributing to the conference's success, please contact us.",
+    "contactUs": "Contact Us"
+  }
+}
