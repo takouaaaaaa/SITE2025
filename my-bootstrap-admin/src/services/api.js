@@ -114,20 +114,6 @@ class ApiService {
     return this.request(`/api/registrations/${id}`);
   }
 
-  async createRegistration(registration, paymentProofFile) {
-    const formData = new FormData();
-    formData.append('registration', JSON.stringify(registration));
-    if (paymentProofFile) {
-      formData.append('paymentProof', paymentProofFile);
-    }
-
-    return this.request('/api/registrations', {
-      method: 'POST',
-      body: formData,
-      headers: {}, // Let browser set Content-Type for FormData
-    });
-  }
-
   async updateRegistration(id, registration) {
     return this.request(`/api/registrations/${id}`, {
       method: 'PUT',

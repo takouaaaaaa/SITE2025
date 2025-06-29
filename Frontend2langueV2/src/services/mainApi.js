@@ -49,17 +49,20 @@ class MainApiService {
 
   /** Public‑facing endpoints --------------------------------------------- */
   getSiteConfig()      { return this.request('/config'); }
-  getSpeakers()        { return this.request('/speakers/getAll'); } // Corrected endpoint
-  getSessions()        { return this.request('/sessions/getAll'); } // Corrected endpoint
+  getSpeakers()        { return this.request('/speakers/getAll'); }
+  getSessions()        { return this.request('/sessions/getAll'); }
+  getRegistrations()   { return this.request('/admin/registrations'); }
+  getRegistrationStats() { return this.request('/admin/registrations/stats'); }
 
   /** Convenience: fetch everything needed for the landing page in parallel */
   async getSiteData() {
-    const [config, speakers, sessions] = await Promise.all([
+    const [config, speakers, sessions, registrations] = await Promise.all([
       this.getSiteConfig(),
       this.getSpeakers(),
-      this.getSessions()
+      this.getSessions(),
+      this.getRegistrations()
     ]);
-    return { config, speakers, sessions };
+    return { config, speakers, sessions, registrations };
   }
 
   /** Registrations -------------------------------------------------------- */
@@ -88,6 +91,30 @@ class MainApiService {
 
   getRegistrationStatus() { return this.request('/registration-status'); }
   getPublicStats()        { return this.request('/stats'); }
+
+  /** Admin Registration Management */
+  getRegistration(id) {
+    return this.request(`/admin/registrations/${id}`);
+  }
+
+  updateRegistration(id, registrationData) {
+    return this.request(`/admin/registrations/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(registrationData)
+    });
+  }
+
+  deleteRegistration(id) {
+    return this.request(`/admin/registrations/${id}`, {
+      method: 'DELETE'
+    });
+  }
+
+  downloadPaymentProof(id) {
+    return this.request(`/admin/registrations/payment-proof/${id}`, {
+      responseType: 'blob'
+    });
+  }
 
   /** Real‑time config polling (long‑poll / SSE) -------------------------- */
   pollForUpdates(lastUpdateTime) {
