@@ -10,7 +10,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/speakers")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
+// Add allowCredentials = "true" here
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"}, allowCredentials = "true")
 public class SpeakerController {
 
     private final SpeakerService speakerService;

@@ -1,71 +1,50 @@
-import React, { useState } from 'react';
-import { FaCalendarAlt, FaClock, FaMapMarkerAlt, FaMicrophone, FaUsers, FaStar } from 'react-icons/fa';
+import React, { useState, useMemo } from 'react';
+import { FaCalendarAlt, FaClock, FaMicrophone, FaUsers, FaStar } from 'react-icons/fa';
 import { useLanguage } from '../contexts/LanguageContext';
+import { useConfig } from '../contexts/ConfigContext'; // Import the main config context
 import './Program_Premium.css';
 
 const Program = () => {
-  const { t } = useLanguage()
-  const speakersData = t('program.speakers.list', { returnObjects: true }) || [
-    {
-      name: 'Speaker',
-      title: 'CEO',
-      topic: 'Smart Factory'
-    },
-    {
-      name: 'Speaker',
-      title: 'Professor',
-      topic: 'Mechanical Engineering'
-    },
-    {
-      name: 'Speaker',
-      title: 'Professor',
-      topic: 'Big Data & Security'
-    },
-    {
-      name: 'Speaker',
-      title: 'Digital Marketing',
-      topic: 'Marketing'
+  const { t } = useLanguage();
+  // Fetch DYNAMIC data from our context instead of hardcoding
+  const { speakers, sessions, loading } = useConfig();
+
+  // Process the flat list of sessions into an object grouped by date
+  // This logic correctly uses the ProgramSession data you provided
+  const scheduleData = useMemo(() => {
+    if (!sessions || sessions.length === 0) return {};
+
+    const grouped = sessions.reduce((acc, session) => {
+      const date = session.date;
+      if (!acc[date]) {
+        acc[date] = [];
+      }
+      acc[date].push({
+        time: `${session.startTime.slice(0, 5)}-${session.endTime.slice(0, 5)}`,
+        event: session.title,
+        description: session.description,
+      });
+      return acc;
+    }, {});
+
+    for (const date in grouped) {
+      grouped[date].sort((a, b) => a.time.localeCompare(b.time));
     }
-  ];
+    return grouped;
+  }, [sessions]);
 
-  const scheduleData = {
-    [t('program.schedule.days.march15')]: [
-      { time: '08:30-09:00', event: t('program.schedule.events.registration') },
-      { time: '09:00-09:30', event: t('program.schedule.events.opening') },
-      { time: '09:30-10:30', event: t('program.schedule.events.keynote1') },
-      { time: '10:30-11:00', event: t('program.schedule.events.coffeeBreak') },
-      { time: '11:00-12:30', event: t('program.schedule.events.session1') },
-      { time: '12:30-14:00', event: t('program.schedule.events.lunch') },
-      { time: '14:00-15:30', event: t('program.schedule.events.session2') },
-      { time: '15:30-16:00', event: t('program.schedule.events.coffeeBreak') },
-      { time: '16:00-17:30', event: t('program.schedule.events.panel') },
-    ],
-    [t('program.schedule.days.march16')]: [
-      { time: '09:00-10:00', event: t('program.schedule.events.keynote2') },
-      { time: '10:00-10:30', event: t('program.schedule.events.coffeeBreak') },
-      { time: '10:30-12:00', event: t('program.schedule.events.session3') },
-      { time: '12:00-13:30', event: t('program.schedule.events.lunch') },
-      { time: '13:30-15:00', event: t('program.schedule.events.session4') },
-      { time: '15:00-15:30', event: t('program.schedule.events.coffeeBreak') },
-      { time: '15:30-17:00', event: t('program.schedule.events.workshop') },
-      { time: '17:00-18:00', event: t('program.schedule.events.poster') },
-    ],
-    [t('program.schedule.days.march17')]: [
-      { time: '09:00-10:00', event: t('program.schedule.events.keynote3') },
-      { time: '10:00-10:30', event: t('program.schedule.events.coffeeBreak') },
-      { time: '10:30-12:00', event: t('program.schedule.events.session5') },
-      { time: '12:00-13:30', event: t('program.schedule.events.lunch') },
-      { time: '13:30-15:00', event: t('program.schedule.events.session6') },
-      { time: '15:00-15:30', event: t('program.schedule.events.coffeeBreak') },
-      { time: '15:30-16:30', event: t('program.schedule.events.closing') },
-    ],
-    [t('program.schedule.days.specialSessions')]: [
-      { time: 'soon', event: t('program.schedule.events.toBeAnnounced') },
-    ],
-  };
+  const initialTab = Object.keys(scheduleData)[0] || '';
+  const [activeTab, setActiveTab] = useState(initialTab);
+  
+  React.useEffect(() => {
+    if (initialTab) setActiveTab(initialTab);
+  }, [initialTab]);
 
-  const [activeTab, setActiveTab] = useState(t('program.schedule.days.march15'));
   const activeSessions = scheduleData[activeTab] || [];
+
+  if (loading) {
+    return <div className="program-page-loading">{t('program.loading')}</div>;
+  }
 
   return (
     <div className="program-page">
@@ -76,17 +55,17 @@ const Program = () => {
           <div className="hero-stats">
             <div className="stat-item">
               <FaUsers className="stat-icon" />
-              <span className="stat-number">4</span>
+              <span className="stat-number">{speakers.length}</span>
               <span className="stat-label">{t('program.stats.speakers')}</span>
             </div>
             <div className="stat-item">
               <FaCalendarAlt className="stat-icon" />
-              <span className="stat-number">3</span>
+              <span className="stat-number">{Object.keys(scheduleData).length}</span>
               <span className="stat-label">{t('program.stats.days')}</span>
             </div>
             <div className="stat-item">
               <FaMicrophone className="stat-icon" />
-              <span className="stat-number">10+</span>
+              <span className="stat-number">{sessions.length}+</span>
               <span className="stat-label">{t('program.stats.sessions')}</span>
             </div>
           </div>
@@ -101,22 +80,24 @@ const Program = () => {
             <p className="section-subtitle">{t('program.speakers.subtitle')}</p>
           </div>
           <div className="speakers-grid">
-            {speakersData.map((speaker, index) => (
-              <div key={index} className="speaker-card">
+            {/* Map over the REAL speakers data from the context */}
+            {speakers.map((speaker) => (
+              <div key={speaker.id} className="speaker-card">
                 <div className="speaker-image-container">
                   <img
+                    // Use a placeholder since there is no photo in the DB
                     src="/site 2025 (5).png"
-                    alt="SITE 2025 Conference Logo"
+                    alt={speaker.name}
                     className="speaker-logo"
                   />
                 </div>
                 <div className="speaker-info">
+                  {/* Use the fields from your Speaker entity */}
                   <h3>{speaker.name}</h3>
                   <p className="speaker-title">{speaker.title}</p>
-                  <p className="speaker-company">{speaker.affiliation}</p>
                   <div className="speaker-topic">
                     <FaMicrophone className="topic-icon" />
-                    {speaker.topic}
+                    {speaker.expertise} {/* Use 'expertise' field */}
                   </div>
                 </div>
               </div>

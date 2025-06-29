@@ -1,5 +1,4 @@
-// The 'export' keyword is added here to make the URL available to other files.
-// All other code and functionality remains unchanged.
+// The 'export' keyword is here to make the URL available to other files.
 export const BASE_URL = (import.meta.env.VITE_API_URL || 'http://localhost:8083/api');
 
 class MainApiService {
@@ -50,8 +49,8 @@ class MainApiService {
 
   /** Public‑facing endpoints --------------------------------------------- */
   getSiteConfig()      { return this.request('/config'); }
-  getSpeakers()        { return this.request('/speakers'); }
-  getSessions()        { return this.request('/sessions'); }
+  getSpeakers()        { return this.request('/speakers/getAll'); } // Corrected endpoint
+  getSessions()        { return this.request('/sessions/getAll'); } // Corrected endpoint
 
   /** Convenience: fetch everything needed for the landing page in parallel */
   async getSiteData() {
